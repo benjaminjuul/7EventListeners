@@ -1,0 +1,90 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+input {
+    background: orange;
+    border: none;
+    padding: 5px 5px 5px;
+}
+input::placeholder {
+    color: #fff;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container input {
+    
+}
+.cotainer .header {
+    width: 100%;
+
+}
+.container .title {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.container ul {
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+    padding: 0;
+}
+.container ul li {
+    margin-bottom: 20px;
+    background: darkblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    color: #fff;
+}
+.container .life-lines {
+    text-align: center;
+}
+.container .life-lines button {
+    color: #fff;
+    background: #000;
+    border-color:lightblue;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+.container .controls {
+    display: block;
+    border: 1px solid #000;
+}
+.container .controls .score {
+    display: block;
+    float: right;
+    background: lightgrey;
+    margin-top: 10px;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    display: none;
+}
+.game-over button {
+    color: #fff;
+    background: darkblue;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.result {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+}
